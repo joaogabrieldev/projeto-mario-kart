@@ -1,0 +1,23 @@
+{
+  "name": "projeto-mario-kart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogabrieldev/projeto-mario-kart.git"
+  },
+  "keywords": [],
+  "author": "João Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaogabrieldev/projeto-mario-kart/issues"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.2.0"
+  }
+}
