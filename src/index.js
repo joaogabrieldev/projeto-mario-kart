@@ -28,7 +28,8 @@ import readline from "readline-sync";
 //   return Math.floor(Math.random() * (max - min + 1)) + min;
 // }
 
-const anonimo = process.argv.indexOf("-a") !== -1;
+//? Iniciar Jogo no Terminal
+console.log("======= BEM-VINDO JOGADOR 🏎️ =======");
 const continuarPrograma = readline
   .question("Digite [S] para continuar e [N] para sair: ", {
     limit: /^[sSnN]$/i,
