@@ -6,7 +6,7 @@
                 <img src="./docs/header.gif" alt="Mario Kart" width="200">
             </td>
             <td>
-                <b>Objetivo:</b>
+                <strong>Objetivo:</strong>
                 <p>Mario Kart é uma série de jogos de corrida desenvolvida e publicada pela Nintendo. Nosso desafio será criar uma lógica de um jogo de vídeo game para simular corridas de Mario Kart, levando em consideração as regras e mecânicas abaixo.</p>
             </td>
         </tr>
@@ -78,12 +78,12 @@
 
 <h3>🕹️ Regras & mecânicas:</h3>
 
-<b>Jogadores:</b>
+<strong>Jogadores:</strong>
 
 <input type="checkbox" id="jogadores-item" />
 <label for="jogadores-item">O Computador deve receber dois personagens para disputar a corrida em um objeto cada</label>
 
-<b>Pistas:</b>
+<strong>Pistas:</strong>
 
 <ul>
   <li><input type="checkbox" id="pistas-1-item" /> <label for="pistas-1-item">Os personagens irão correr em uma pista aleatória de 5 rodadas</label></li>
@@ -97,7 +97,7 @@
   </li>
 </ul>
 
-<b>Condição de vitória:</b>
+<strong>Condição de vitória:</strong>
 
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
