@@ -218,7 +218,7 @@ npm run dev
 
 ### 👨‍💻 Autor
 
-**João Gabriel** - [GitHub](https://github.com/joaogabrieldev)
+**João Gabriel** - [GitHub](https://github.com/joaogabrieldev) | [Linkedin](https://www.linkedin.com/in/joaogabrielrocha)
 
 
 
