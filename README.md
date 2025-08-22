@@ -78,11 +78,6 @@
 
 <h3>🕹️ Regras & mecânicas:</h3>
 
-<strong>Jogadores:</strong>
-
-<input type="checkbox" id="jogadores-item" />
-<label for="jogadores-item">O Computador deve receber dois personagens para disputar a corrida em um objeto cada</label>
-
 <strong>Pistas:</strong>
 
 <ul>
@@ -101,3 +96,129 @@
 
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
+
+---
+
+## 🚀 Informações Técnicas do Projeto
+
+### 📦 Dependências Utilizadas
+
+#### Dependências de Produção
+```json
+{
+  "readline-sync": "^1.4.10"
+}
+```
+
+**readline-sync** - Biblioteca essencial para este projeto que permite:
+- **Entrada de dados síncrona** no terminal durante a execução do jogo
+- **Validação de entrada** do usuário (ex: apenas 'S' ou 'N', 'J' ou 'N')
+- **Interface interativa** para o jogador responder às perguntas do jogo
+- **Controle de fluxo** do programa baseado nas respostas do usuário
+- **Compatibilidade cross-platform** (Windows, macOS, Linux)
+
+#### Dependências de Desenvolvimento
+```json
+{
+  "@types/node": "^24.2.0"
+}
+```
+
+**@types/node** - Pacote de tipos TypeScript para Node.js que oferece:
+- **Definições de tipos** para todas as APIs nativas do Node.js
+- **IntelliSense e autocomplete** em editores que suportam TypeScript
+- **Verificação de tipos** durante o desenvolvimento
+- **Documentação inline** das APIs do Node.js
+- **Suporte a ES6 Modules** e outras funcionalidades modernas
+
+#### 🔧 Estrutura do Projeto
+```
+projeto-mario-kart/
+├── src/
+│   └── index.js          # Arquivo principal do jogo
+├── docs/                 # Assets visuais (GIFs dos personagens)
+├── package.json          # Configurações e dependências
+└── README.md            # Documentação
+```
+
+##### 1. **Programação Orientada a Objetos (POO)**
+- **Classe `Personagem`**: Modelo para representar os personagens do jogo
+- **Encapsulamento**: Atributos e métodos organizados em classes
+- **Instanciação**: Criação de objetos para cada personagem
+
+##### 2. **Programação Funcional**
+- **Funções Puras**: Funções que não dependem de estado externo
+- **Funções Assíncronas**: Uso de `async/await` para operações assíncronas
+- **Arrow Functions**: Sintaxe moderna do ES6
+
+##### 3. **Padrão Factory**
+- Criação de personagens através de construtor de classe
+- Instanciação padronizada de objetos
+
+##### 4. **Padrão Strategy**
+- Diferentes estratégias para cada tipo de bloco da pista
+- Lógica condicional baseada no tipo de desafio
+
+##### 5. **Modularização**
+- Separação de responsabilidades em funções específicas
+- Código organizado e reutilizável
+
+### 🚀 Como Executar
+
+#### Pré-requisitos
+- Node.js instalado (versão 14 ou superior)
+- NPM ou Yarn
+
+#### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/joaogabrieldev/projeto-mario-kart.git
+
+# Entre no diretório
+cd projeto-mario-kart
+
+# Instale as dependências
+npm install
+```
+
+#### Execução
+```bash
+# Inicie o jogo
+npm run dev
+```
+
+### 📁 Estrutura de Arquivos
+
+- **`src/index.js`**: Lógica principal do jogo
+- **`docs/`**: Imagens GIF dos personagens
+- **`package.json`**: Configurações do projeto
+- **`.gitignore`**: Arquivos ignorados pelo Git
+
+### 🎯 Funcionalidades Implementadas
+
+- ✅ Sistema de personagens com atributos
+- ✅ Sorteio aleatório de jogadores
+- ✅ Sistema de dados (1-6)
+- ✅ Mecânicas de corrida (reta, curva, confronto)
+- ✅ Sistema de pontuação
+- ✅ Interface de terminal interativa
+- ✅ Validação de entrada do usuário
+- ✅ Prevenção de pontuação negativa
+- ✅ Sistema de empate
+
+### 🚧 Possíveis Melhorias Futuras
+
+- [ ] Interface gráfica com HTML/CSS/JavaScript
+- [ ] Sistema de ranking e histórico
+- [ ] Mais personagens e pistas
+- [ ] Sistema de power-ups
+- [ ] Modo multiplayer online
+- [ ] Testes automatizados
+- [ ] Sistema de configurações
+
+### 👨‍💻 Autor
+
+**João Gabriel** - [GitHub](https://github.com/joaogabrieldev)
+
+
+
